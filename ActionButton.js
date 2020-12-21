@@ -178,6 +178,7 @@ const ActionButton = props => {
 
     return (
       <Animated.Text
+        allowFontScaling={false}
         style={[
           styles.btnText,
           buttonTextStyle,
